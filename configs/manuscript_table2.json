@@ -1,0 +1,29 @@
+{
+  "experiment": "manuscript_table2",
+  "grid_ny": 150,
+  "grid_nx": 150,
+  "pixel_size_m": 15.0,
+  "monte_carlo_realizations": 30,
+  "seed_start": 20260424,
+  "edge_kernel": "legacy_linear",
+  "edge_direction_confidence_gate": true,
+  "adaptive_gamma": 1.05,
+  "lambda_s": 0.024,
+  "lambda_d_base": [
+    0.01,
+    0.024,
+    0.052
+  ],
+  "lambda_t_base": [
+    0.005,
+    0.015,
+    0.03
+  ],
+  "expected_table2_north_rmse_mm_yr": {
+    "WLS": 8.903,
+    "APFM": 12.825,
+    "SPFM": 8.641,
+    "Full SATFM": 2.122
+  }
+}
+
