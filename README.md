@@ -3,8 +3,8 @@
 This repository contains a clean, public-facing implementation of the SATFM
 synthetic benchmark workflow used in:
 
-> Spatially Adaptive Terrain-Kinematic Constraints for Resolving North-South
-> Landslide Motion from Multi-Geometry InSAR in the Three Gorges Reservoir Area
+> Cross-looking InSAR reconstruction of three-dimensional kinematics and
+> moving-layer geometry of a reservoir-bank landslide
 
 The release is intentionally limited to code and synthetic data. It does not
 include proprietary or access-restricted SAR products, GNSS observations, UAV
@@ -53,10 +53,10 @@ pixel size and the manuscript Eq. (12) edge kernel (`legacy_linear` with
 direction-confidence gating). The expected North-component RMSEs are:
 
 ```text
-WLS        8.903 +/- 0.030 mm/yr
-APFM      12.825 +/- 0.034 mm/yr
-SPFM      8.641 +/- 0.026 mm/yr
-Full SATFM 2.122 +/- 0.027 mm/yr
+WLS        8.902 +/- 0.036 mm/yr
+APFM      12.817 +/- 0.034 mm/yr
+SPFM      8.637 +/- 0.024 mm/yr
+Full SATFM 2.119 +/- 0.027 mm/yr
 ```
 
 The expected summary is also provided in

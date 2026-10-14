@@ -1,10 +1,11 @@
 # Data Availability Notes
 
-This public repository is designed for synthetic reproducibility. The manuscript
-Table 2 synthetic benchmark is reproduced by `scripts/run_manuscript_table2.py`.
-The synthetic scene, multi-geometry LOS observations, and noise are generated
-deterministically in code with fixed random seeds; no separate synthetic data
-file is distributed.
+This public repository provides the source code and synthetic benchmark associated
+with the paper. The synthetic benchmark reported in Table 2 is reproduced by
+`scripts/run_manuscript_table2.py`. The synthetic scene, multi-geometry LOS
+observations, and noise are generated deterministically in code using the fixed
+seed range `2026100801`-`2026100830`; no separate synthetic data file is
+distributed.
 
 ## Publicly Included
 
@@ -26,10 +27,9 @@ file is distributed.
 
 Recommended wording for the manuscript:
 
-> The SATFM source code required to reproduce the manuscript Table 2 synthetic
-> benchmark is available in a public GitHub repository. The synthetic scene,
-> multi-geometry LOS observations, and noise are generated deterministically by
-> the released scripts with fixed random seeds. Real-case SAR, GNSS, UAV,
-> borehole, and derived geospatial products are not redistributed because of
-> data-provider and access restrictions; access details are provided in the
-> manuscript data availability statement.
+> The Sentinel-1 SAR data are freely available from the European Space Agency
+> (https://dataspace.copernicus.eu). The SATFM source code and synthetic benchmark
+> associated with this paper are openly available in this public GitHub
+> repository. The Fucheng-1 SAR datasets, GNSS observation records, UAV-generated
+> DEMs and DOMs, and borehole survey data can be obtained from the corresponding
+> author upon reasonable request.
