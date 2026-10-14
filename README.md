@@ -6,9 +6,8 @@ synthetic benchmark workflow used in:
 > Cross-looking InSAR reconstruction of three-dimensional kinematics and
 > moving-layer geometry of a reservoir-bank landslide
 
-The release is intentionally limited to code and synthetic data. It does not
-include proprietary or access-restricted SAR products, GNSS observations, UAV
-data, borehole data, or intermediate real-case outputs.
+Availability of the observational and site-specific datasets supporting the
+paper is described in its Data Availability statement.
 
 ## What Is Included
 
@@ -78,6 +77,8 @@ experiments.
 
 ## Citation
 
-Please cite the associated manuscript when using this code or synthetic dataset.
-The manuscript has not yet been assigned a DOI; citation metadata can be added
-after acceptance or publication.
+If you use this code or synthetic benchmark, please cite:
+
+> Han, M., Dou, J., Yang, Y., et al. *Cross-looking InSAR reconstruction of
+> three-dimensional kinematics and moving-layer geometry of a reservoir-bank
+> landslide*.
